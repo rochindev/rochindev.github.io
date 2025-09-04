@@ -102,12 +102,12 @@ const Navbar = () => {
       <Link
         className='navLink-item'
         activeClass="active"
-        to="about"
+        to="skills"
         smooth={true}
         offset={0}
         duration={500} onClick={closeMenu}>
           <span id='codeFont'>01.</span>
-          About
+          Skills
       </Link>
     </li>
   )
@@ -117,13 +117,13 @@ const Navbar = () => {
       <Link
         className='navLink-item'
         activeClass="active"
-        to="experience"
+        to="projects"
         smooth={true}
         offset={0}
         duration={500}
         onClick={closeMenu}>
         <span id='codeFont'>02.</span>
-        Experience
+        Projects
       </Link>
     </li>
   )
@@ -133,14 +133,14 @@ const Navbar = () => {
       <Link
         className='navLink-item'
         activeClass="active"
-        to="projects"
+        to="about"
         smooth={true}
         offset={0}
         duration={500}
         onClick={closeMenu}
       >
         <span id='codeFont'>03.</span>
-        Projects
+        About
       </Link>
     </li>
   )

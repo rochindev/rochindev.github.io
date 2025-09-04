@@ -20,7 +20,7 @@ const About = () => {
     <section id="about" className={`section`} >
       <div ref={aboutRef} className={isInViewport ? 'fade-enter-active' : 'fade-enter'} style={{ transitionDelay: `400ms` }}>
         <h2 id="sectionTitle" className="aboutTitle" >
-            <span id="codeFont">01. </span>
+            <span id="codeFont">03. </span>
             About Me
         </h2>
 

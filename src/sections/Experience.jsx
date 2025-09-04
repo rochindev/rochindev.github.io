@@ -28,7 +28,7 @@ const Experience = () => {
       <div ref={expRef} className={isInViewport ? 'fade-enter-active' : 'fade-enter'} style={{ transitionDelay: `400ms` }}>
 
         <h2 id="sectionTitle">
-            <span id="codeFont">02. </span>
+            <span id="codeFont">05. </span>
             Professional Experience
         </h2>
 

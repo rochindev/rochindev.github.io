@@ -39,23 +39,22 @@ const Hero = () => {
           </CSSTransition>
           <CSSTransition in={isMounted} nodeRef={ref2} classNames="fadeup" timeout={1000}>
             <h1 className='name' ref={ref2} style={{ transitionDelay: `200ms` }}>
-              Victor Rochin.
+              Victor Rochin
             </h1>
           </CSSTransition>
           <CSSTransition in={isMounted} nodeRef={ref3} classNames="fadeup" timeout={1000}>
             <h1 className='slogan' ref={ref3} style={{ transitionDelay: `300ms` }}>
-            Web Developer in Beta Version <br></br> (Upgrading Daily)
+            Full-Stack Web Developer <br></br> React, Node.js & Stripe Integrations
             </h1>
           </CSSTransition>
           <CSSTransition in={isMounted} nodeRef={ref4} classNames="fadeup" timeout={1000}>
             <p className='intro' ref={ref4} style={{ transitionDelay: `500ms` }}>
-              Looking for a team that values <span id='highlight'>learning and
-              collaboration</span>. I'm all about creativity so when I'm not focused on a project, you can find me editing videos for my <span id='highlight' className='tiktoklink'><a href="https://www.tiktok.com/@chismecito.reddit" target='_blank' className='project-title'>TikTok profile.</a></span> Welcome!
+              I build fast, user-focused web applications with clean code and thoughtful design. Experienced with React, Node.js, and modern APIs, I help teams ship scalable products quickly and effectively. When I'm not coding, I'm editing videos for my <span id='highlight' className='tiktoklink'><a href="https://www.tiktok.com/@chismecito.reddit" target='_blank' className='project-title'>social media</a></span> — creativity drives everything I do.
             </p>
           </CSSTransition>
           <CSSTransition in={isMounted} nodeRef={ref5} classNames="fadeup" timeout={1000}>
             <div ref={ref5} style={{ transitionDelay: `600ms` }}>
-              <button className='CTA-button hero-button' id='codeFont' onClick={openEmailPrompt} >Let's Talk!</button>
+              <button className='CTA-button hero-button' id='codeFont' onClick={openEmailPrompt} >Let's Build Something</button>
             </div>
           </CSSTransition>
           <CSSTransition in={isMounted} nodeRef={ref6} classNames="slide-in-email" timeout={1200}>

@@ -4,7 +4,7 @@ import './css/normalize.css'
 import './css/App.css'
 import Hero from './sections/Hero'
 import About from './sections/About'
-import Experience from './sections/Experience'
+import Skills from './sections/Skills'
 import Footer from './sections/Footer'
 import Projects from './sections/Projects'
 import Contact from './sections/Contact'
@@ -16,9 +16,9 @@ function App() {
       <Navbar />
       <div className='main'>
         <Hero />
+        <Skills />
+        <Projects />
         <About />
-        <Experience />
-        <Projects />  
         <Contact />
         <Footer />
       </div>
